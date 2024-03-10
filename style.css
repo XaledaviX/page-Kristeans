@@ -1,7 +1,10 @@
 body{
     margin: 0px;
     background-color: #edecec;
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+p{
+    font-weight: 600;
 }
 
 .navbar{
@@ -14,7 +17,7 @@ body{
     background-color: #edecec;
     border:none;
     height: 25px;
-    width: 200px;
+    width: 250px;
     margin: 20px;
     border-radius: 15px;
 }
@@ -93,7 +96,7 @@ main h1{
 .sub-title{
     color:rgb(41 40 137);
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 1000;
 }
 
 .container-section p{
@@ -105,7 +108,9 @@ main h1{
 
 /*///////////////////////////////////////////////////////////////*/
 
-.article-contain h2{
+.sub-title-dos{
+    margin-bottom: 0px;
+    height: 75px;
     width: 100%;
     background-color: rgb(9 31 82);
     color: white;
@@ -114,3 +119,26 @@ main h1{
     align-items: center;
 }
 
+.article-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; 
+  }
+  
+  .article-content > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .article-content img {
+    max-width: 100%;
+  }
+
+/*//////////////////////////////////////////////////////*/
+footer{
+    background-color: #cfd3d6;
+    height: 100px;
+}
+  
