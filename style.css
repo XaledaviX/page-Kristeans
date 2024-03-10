@@ -4,6 +4,12 @@ body{
     font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+
 .search{
     background-color: #edecec;
     border:none;
@@ -11,6 +17,10 @@ body{
     width: 200px;
     margin: 20px;
     border-radius: 15px;
+}
+
+.search:hover{
+    background-color: #ffffff;
 }
 
 .container-title{
@@ -28,6 +38,7 @@ body{
 }
 
 nav{
+    box-shadow: 0px 0px 20px 0px;
     display: flex;
     background-color: #ffffff;;
     height: 68px;
@@ -66,6 +77,12 @@ nav ul li a img {
 
 /*/////////////////////////////////////////////////////////////////////////////*/
 
+main h1{
+    height: 300px;
+    margin: 0;
+    height: 150px;
+}
+
 .container-section{
     display: flex;
     flex-direction: column;
@@ -76,13 +93,24 @@ nav ul li a img {
 .sub-title{
     color:rgb(41 40 137);
     font-size: 45px;
+    font-weight: 800;
 }
 
 .container-section p{
+    width: 660px;
     text-align: center;
-    content: center;
     margin: 20px;
     font-size: 20px;
 }
 
+/*///////////////////////////////////////////////////////////////*/
+
+.article-contain h2{
+    width: 100%;
+    background-color: rgb(9 31 82);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
